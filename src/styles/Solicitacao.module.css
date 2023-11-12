@@ -1,0 +1,99 @@
+.dados{
+    background-color: var(--azul-sec);
+    padding: 50px;
+}
+
+.form{
+    width: 50%;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #d2ebff;
+    padding: 3rem;
+}
+
+.formHeader{
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: space-between;
+    color: var(--azul-principal);
+    font-weight: 800;
+}
+
+.inputGroup{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+.inputBox{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.1rem;
+}
+
+.inputBox input{
+    margin: 0.6rem 0;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px #0000001c;
+    font-size: .8rem;
+}
+
+.inputBox input:hover{
+    background: #815aff75;
+}
+
+.inputBox input:focus-visible{
+    outline: 1px solid #635bff;
+}
+
+.inputBox label,
+.genderTitle h6{
+    font-size: max(1rem, 1.2vw);
+    font-weight: 800;
+    color: var(--azul-principal);
+}
+
+.inputBox input::placeholder{
+    color: #000000be;
+}
+
+.genderGroup{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: .6rem;
+    margin-bottom: 1rem;
+    padding: 0 1rem;
+}
+
+.genderInput{
+    display: flex;
+    align-items: center;
+}
+
+.genderInput input{
+    margin-right: .35rem;
+}
+
+.genderInput label{
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--azul-principal);
+}
+
+.btnContinuar button{
+    color: var(--branco);
+    background-color: var(--azul-principal);
+    border: 2px solid var(--branco);
+    border-radius: 15px;
+    font-size: 1.5vw;
+    padding: 15px 40px;
+}
+
+
