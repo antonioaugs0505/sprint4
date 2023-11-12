@@ -1,7 +1,12 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css");
+@import url(../styles/Home.module.css);
+@import url(../styles/Components.module.css);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 
 :root{
     --azul-principal: #077CDB;
@@ -9,22 +14,4 @@
     --branco: #fff;
   }
 
-.bg-azul-principal{
-    background: var(--azul-principal);
-}
-
-
-
-.text-azul-principal{
-    color: var(--azul-principal);
-}
-
-
-.bg-azul-sec{
-    background: var(--azul-sec);
-}
-
-.text-azul-sec{
-    color: var(--azul-sec);
-}
 
