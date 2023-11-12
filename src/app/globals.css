@@ -13,9 +13,12 @@
     background: var(--azul-principal);
 }
 
+
+
 .text-azul-principal{
     color: var(--azul-principal);
 }
+
 
 .bg-azul-sec{
     background: var(--azul-sec);
@@ -24,3 +27,4 @@
 .text-azul-sec{
     color: var(--azul-sec);
 }
+
