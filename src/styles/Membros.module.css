@@ -1,0 +1,32 @@
+.membros{
+    width: 100%;
+    background-color: var(--azul-sec);
+    height: 70vh;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.membros p{
+    color: var(--branco);
+    font-size: max(1rem, 2vw);
+}
+
+.voltar{
+    color: var(--branco);
+    text-decoration: none;
+    border: 4px solid var(--branco);
+    padding: 15px 40px;
+    border-radius: 30px;
+    font-size: 1.4vw;
+    margin-top: 20px;
+    background-color: var(--azul-principal);
+}
+
+.voltar:hover{
+    color: var(--azul-principal);
+    background-color: var(--branco);
+    border: 4px solid var(--azul-principal);
+}

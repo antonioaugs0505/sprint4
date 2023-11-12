@@ -82,6 +82,10 @@
     border-radius: 30px;
 }
 
+.formEmail input:focus{
+    outline: 2px solid var(--azul-principal);
+}
+
 .btnEnviar{
     align-self: end;
     color: var(--branco);
@@ -90,13 +94,16 @@
     border-radius: 20px;
     border: none;
     font-size: 1.4vw;
-    padding: 8px 15px;
+    padding: 8px 25px;
     margin-top: 15px;
+    border: 2px solid var(--azul-principal);
 }
 
-.btn-enviar:hover{
+.btnEnviar:hover{
     color: var(--azul-principal);
     background-color: var(--branco);
+    border: 2px solid var(--azul-principal);
+    cursor: pointer;
  }
 
  .contato h3{
