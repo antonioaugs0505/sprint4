@@ -12,7 +12,7 @@ export default function Home() {
         <div className={styles.apresentacaoTexto}>
           <h3>ModalSure</h3>
           <p className="text-white font-normal text-2xl mb-12">O novo método em solicitação de guinchos. Com a nossa tecnologia integrada, automatização e eficiência, o guincho ideal para sua demanda chegará no menor tempo!</p>
-          <Link className={styles.linkApresentacao}  href='/'>SOLICITAR GUINCHO</Link>
+          <Link className={styles.linkApresentacao}  href='/solicitar-guincho'>SOLICITAR GUINCHO</Link>
         </div>
 
         <figure className={styles.imagemApresentacao}>
