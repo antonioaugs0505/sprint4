@@ -1,13 +1,14 @@
 import Link from "next/link";
 import Image from "next/image";
+import styles from'../../styles/Components.module.css'
 
 export default function Cabecalho() {
   return (
-    <nav className="w-full bg-azul-principal flex items-center justify-around p-4">
+    <nav className={styles.menu}>
 
-        <Link href="/"><Image className="w-[16vw]" src="/images/logo-porto.png" alt="Logo" width={360} height={120}></Image></Link>
+        <Link href="/"><Image className={styles.logoMenu} src="/images/logo-porto.png" alt="Logo" width={360} height={120}></Image></Link>
 
-        <Link href="/" className="text-white no-underline font-semibold text-base md:text-lg lg:text-xl hover:text-blue-700">MEMBROS</Link>
+        <Link href="/" className={styles.menuItem}>MEMBROS</Link>
     </nav>
 
   );
