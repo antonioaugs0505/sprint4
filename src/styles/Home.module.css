@@ -113,3 +113,79 @@
     width: 20vw;
     text-align: center;
  }
+
+ @media screen and (max-width:860px) {
+    .apresentacao{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .apresentacaoTexto{
+        width: 75%;
+        text-align: center;
+    }
+
+    .imagemApresentacao{
+        width: 60%;
+    }
+ }
+
+ @media screen and (max-width:600px) {
+    .apresentacao{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .apresentacaoTexto{
+        width: 85%;
+    }
+
+    .imagemApresentacao{
+        width: 80%;
+    }
+
+    .contato{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .formEmail{
+        width: 70%;
+        border-radius: 30px;
+        padding: 20px 30px;
+        gap: 15px;
+        margin-top: 20px;
+    }
+
+    .formEmail input{
+        background: #d9d9d9;
+        border: none;
+        color: #a0a0a0;
+        font-size: .5rem;
+        font-weight: 900;
+        padding: 10px 10px;
+        border-radius: 30px;
+    }
+
+}
+
+    @media screen and (max-width:470px){
+
+        .contato h3{
+            font-size: 2.2vw;
+            color: var(--branco);
+            font-weight: 800;
+            width: 30vw;
+            text-align: center;
+         }
+    
+         .apresentacao-texto p{
+            color: var(--branco);
+            font-weight: 400;
+            font-size: .8rem;
+            margin-bottom: 30px;
+        }
+
+ }
+

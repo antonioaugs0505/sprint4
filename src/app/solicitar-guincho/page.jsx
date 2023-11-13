@@ -85,7 +85,7 @@ export default function Solicitacao() {
             </div>
 
             <div className={styles.inputBox}>
-              <label for="estado">Estado</label>
+              <label htmlFor="estado">Estado</label>
               <input
                 id="estado"
                 type="text"
@@ -96,7 +96,7 @@ export default function Solicitacao() {
             </div>
 
             <div className={styles.inputBox}>
-              <label for="cidade">Cidade</label>
+              <label htmlFor="cidade">Cidade</label>
               <input
                 id="cidade"
                 type="text"
@@ -107,7 +107,7 @@ export default function Solicitacao() {
             </div>
 
             <div className={styles.inputBox}>
-              <label for="end">Endereço</label>
+              <label htmlFor="end">Endereço</label>
               <input
                 id="end"
                 type="text"
@@ -118,7 +118,7 @@ export default function Solicitacao() {
             </div>
 
             <div className={styles.inputBox}>
-              <label for="numero">Número</label>
+              <label htmlFor="numero">Número</label>
               <input
                 id="numero"
                 type="text"
@@ -129,7 +129,7 @@ export default function Solicitacao() {
             </div>
 
             <div className={styles.inputBox}>
-              <label for="numero">Complemento</label>
+              <label htmlFor="numero">Complemento</label>
               <input
                 id="complemento"
                 type="text"
@@ -258,7 +258,7 @@ export default function Solicitacao() {
             </div>
 
             <div className={styles.inputBox}>
-              <label for="chassi">Chassi</label>
+              <label htmlFor="chassi">Chassi</label>
               <input
                 id="chassi"
                 type="chassi"
@@ -349,33 +349,33 @@ export default function Solicitacao() {
                     <div className={styles.genderGroup}>
                         <div className={styles.genderInput}>
                             <input id="pneu" type="radio" name="pneu"/>
-                            <label for="pneu">Pneu furado</label>
+                            <label htmlFor="pneu">Pneu furado</label>
                         </div>
 
                         <div className={styles.genderInput}>
                             <input id="bateria" type="radio" name="bateria"/>
-                            <label for="bateria">Problema na bateria</label>
+                            <label htmlFor="bateria">Problema na bateria</label>
                         </div>
 
                         <div className={styles.genderInput}>
                             <input id="motor" type="radio" name="motor"/>
-                            <label for="motor">Motor fundido</label>
+                            <label htmlFor="motor">Motor fundido</label>
                         </div>
 
                         <div className={styles.genderInput}>
                             <input id="direcao" type="radio" name="direcao"/>
-                            <label for="direcao">Problemas na direção</label>
+                            <label htmlFor="direcao">Problemas na direção</label>
                         </div>
 
                         <div className={styles.genderInput}>
                             <input id="outro" type="radio" name="outro"/>
-                            <label for="outro">Outro</label>
+                            <label htmlFor="outro">Outro</label>
                         </div>
                     </div>
                 </div>
 
                 <div className={styles.inputBox}>
-                        <label for="outroBox">Outro</label>
+                        <label htmlFor="outroBox">Outro</label>
                         <input id="outroBox" type="textarea" name="outroBox" placeholder="Digite seu completemnto" required/>
                     </div>
           </div>
