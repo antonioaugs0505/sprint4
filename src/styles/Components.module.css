@@ -4,10 +4,11 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding: 15px;
+    padding: 2%;
 }
 .logoMenu{
     width: 16vw;
+    height: auto;
 }
 
 .menuItem{
@@ -44,3 +45,8 @@
 .item:hover{
     color: var(--azul-sec);
 }
+
+.rodape h3{
+    text-align: center;
+}
+

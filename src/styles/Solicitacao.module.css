@@ -96,4 +96,56 @@
     padding: 15px 40px;
 }
 
+@media screen and (max-width:1200px){
+    .form{
+        width: 65%;
+    }
+}
+
+@media screen and (max-width:992px){
+    .form{
+        width: 85%;
+    }
+
+    .genderInput label {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width:768px){
+    .form{
+        width: 90%;
+        margin: 0 auto;
+        padding: 30px;
+    }
+
+    .inputGroup{
+        flex-direction: column;
+    }
+    .gender-inputs {
+        margin-top: 2rem;
+    }
+    .gender-group {
+        flex-direction: column;
+    }
+    .gender-title h6 {
+        margin: 0;
+    }
+
+    .gender-input label {
+        font-size: 1rem;
+    }
+    .gender-input {
+        margin-top: 0.5rem;
+        margin: 20px;
+    }
+
+    .btn-continuar button{
+
+        font-size: 1rem;
+       
+     }
+    
+}
+
 
