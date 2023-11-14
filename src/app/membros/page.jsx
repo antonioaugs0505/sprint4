@@ -13,7 +13,7 @@ export default function Membros(){
                 <p>94156 - Luan Ribeiro Dias</p>
             </div>
 
-        <Link href='#' className={styles.voltar}>VOLTAR PARA HOME</Link>
+        <Link href='/' className={styles.voltar}>VOLTAR PARA HOME</Link>
         </main>
     )
 }

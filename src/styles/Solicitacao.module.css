@@ -52,6 +52,15 @@
     outline: 1px solid #635bff;
 }
 
+.inputArea input:hover{
+    background: #815aff75;
+}
+
+.inputArea input:focus-visible{
+    outline: 1px solid #635bff;
+}
+
+
 .inputBox label,
 .genderTitle h6{
     font-size: max(1rem, 1.2vw);
@@ -63,6 +72,7 @@
     color: #000000be;
 }
 
+
 .genderGroup{
     display: flex;
     flex-direction: row;
@@ -70,6 +80,7 @@
     margin-top: .6rem;
     margin-bottom: 1rem;
     padding: 0 1rem;
+    width: 100%;
 }
 
 .genderInput{
@@ -85,6 +96,30 @@
     font-size: 1rem;
     font-weight: 600;
     color: var(--azul-principal);
+}
+
+.inputArea{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.1rem;
+    width: 100%;
+}
+
+.inputArea label,
+.genderTitle h6{
+    font-size: max(1rem, 1.2vw);
+    font-weight: 800;
+    color: var(--azul-principal);
+}
+
+.inputArea input{
+    margin: 0.6rem 0;
+    padding: 0.8rem 1.2rem;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px #0000001c;
+    font-size: .8rem;
 }
 
 .btnContinuar button{
@@ -122,25 +157,25 @@
     .inputGroup{
         flex-direction: column;
     }
-    .gender-inputs {
+    .genderInputs {
         margin-top: 2rem;
     }
-    .gender-group {
+    .genderGroup {
         flex-direction: column;
     }
-    .gender-title h6 {
+    .genderTitle h6 {
         margin: 0;
     }
 
-    .gender-input label {
+    .genderInput label {
         font-size: 1rem;
     }
-    .gender-input {
+    .genderInput {
         margin-top: 0.5rem;
         margin: 20px;
     }
 
-    .btn-continuar button{
+    .btnContinuar button{
 
         font-size: 1rem;
        
