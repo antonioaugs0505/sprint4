@@ -1,186 +1,179 @@
-.dados{
-    background-color: var(--azul-sec);
-    padding: 50px;
+.dados {
+  background-color: var(--azul-sec);
+  padding: 50px;
 }
 
-.form{
-    width: 50%;
-    display: flex;
-    margin: 0 auto;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #d2ebff;
-    padding: 3rem;
+.form {
+  width: 50%;
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #d2ebff;
+  padding: 3rem;
 }
 
-.formHeader{
-    margin-bottom: 3rem;
-    display: flex;
-    justify-content: space-between;
-    color: var(--azul-principal);
-    font-weight: 800;
+.formHeader {
+  margin-bottom: 3rem;
+  display: flex;
+  justify-content: space-between;
+  color: var(--azul-principal);
+  font-weight: 800;
 }
 
-.inputGroup{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 1rem 0;
+.inputGroup {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 1rem 0;
 }
 
-.inputBox{
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 1.1rem;
+.inputBox {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.1rem;
 }
 
-.inputBox input{
-    margin: 0.6rem 0;
-    padding: 0.8rem 1.2rem;
-    border: none;
-    border-radius: 10px;
-    box-shadow: 1px 1px 6px #0000001c;
-    font-size: .8rem;
+.inputBox input {
+  margin: 0.6rem 0;
+  padding: 0.8rem 1.2rem;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 1px 1px 6px #0000001c;
+  font-size: 0.8rem;
 }
 
-.inputBox input:hover{
-    background: #815aff75;
+.inputBox input:hover {
+  background: #815aff75;
 }
 
-.inputBox input:focus-visible{
-    outline: 1px solid #635bff;
+.inputBox input:focus-visible {
+  outline: 1px solid #635bff;
 }
 
-.inputArea input:hover{
-    background: #815aff75;
+.inputArea input:hover {
+  background: #815aff75;
 }
 
-.inputArea input:focus-visible{
-    outline: 1px solid #635bff;
+.inputArea input:focus-visible {
+  outline: 1px solid #635bff;
 }
-
 
 .inputBox label,
-.genderTitle h6{
-    font-size: max(1rem, 1.2vw);
-    font-weight: 800;
-    color: var(--azul-principal);
+.genderTitle h6 {
+  font-size: max(1rem, 1.2vw);
+  font-weight: 800;
+  color: var(--azul-principal);
 }
 
-.inputBox input::placeholder{
-    color: #000000be;
+.inputBox input::placeholder {
+  color: #000000be;
 }
 
-
-.genderGroup{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-top: .6rem;
-    margin-bottom: 1rem;
-    padding: 0 1rem;
-    width: 100%;
+.genderGroup {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 0.6rem;
+  margin-bottom: 1rem;
+  padding: 0 1rem;
+  width: 100%;
 }
 
-.genderInput{
-    display: flex;
-    align-items: center;
+.genderInput {
+  display: flex;
+  align-items: center;
 }
 
-.genderInput input{
-    margin-right: .35rem;
+.genderInput input {
+  margin-right: 0.35rem;
 }
 
-.genderInput label{
-    font-size: 1rem;
-    font-weight: 600;
-    color: var(--azul-principal);
+.genderInput label {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--azul-principal);
 }
 
-.inputArea{
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 1.1rem;
-    width: 100%;
+.inputArea {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.1rem;
+  width: 100%;
 }
 
 .inputArea label,
-.genderTitle h6{
-    font-size: max(1rem, 1.2vw);
-    font-weight: 800;
-    color: var(--azul-principal);
+.genderTitle h6 {
+  font-size: max(1rem, 1.2vw);
+  font-weight: 800;
+  color: var(--azul-principal);
 }
 
-.inputArea input{
-    margin: 0.6rem 0;
-    padding: 0.8rem 1.2rem;
-    width: 100%;
-    border: none;
-    border-radius: 10px;
-    box-shadow: 1px 1px 6px #0000001c;
-    font-size: .8rem;
+.inputArea input {
+  margin: 0.6rem 0;
+  padding: 0.8rem 1.2rem;
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 1px 1px 6px #0000001c;
+  font-size: 0.8rem;
 }
 
-.btnContinuar button{
-    color: var(--branco);
-    background-color: var(--azul-principal);
-    border: 2px solid var(--branco);
-    border-radius: 15px;
-    font-size: 1.5vw;
-    padding: 15px 40px;
+.btnContinuar button {
+  color: var(--branco);
+  background-color: var(--azul-principal);
+  border: 2px solid var(--branco);
+  border-radius: 15px;
+  font-size: 1.5vw;
+  padding: 15px 40px;
 }
 
-@media screen and (max-width:1200px){
-    .form{
-        width: 65%;
-    }
+@media screen and (max-width: 1200px) {
+  .form {
+    width: 65%;
+  }
 }
 
-@media screen and (max-width:992px){
-    .form{
-        width: 85%;
-    }
+@media screen and (max-width: 992px) {
+  .form {
+    width: 85%;
+  }
 
-    .genderInput label {
-        font-size: 1rem;
-    }
+  .genderInput label {
+    font-size: 1rem;
+  }
 }
 
-@media screen and (max-width:768px){
-    .form{
-        width: 90%;
-        margin: 0 auto;
-        padding: 30px;
-    }
+@media screen and (max-width: 768px) {
+  .form {
+    width: 90%;
+    margin: 0 auto;
+    padding: 30px;
+  }
 
-    .inputGroup{
-        flex-direction: column;
-    }
-    .genderInputs {
-        margin-top: 2rem;
-    }
-    .genderGroup {
-        flex-direction: column;
-    }
-    .genderTitle h6 {
-        margin: 0;
-    }
+  .inputGroup {
+    flex-direction: column;
+  }
+  .genderInputs {
+    margin-top: 2rem;
+  }
+  .genderGroup {
+    flex-direction: column;
+  }
+  .genderTitle h6 {
+    margin: 0;
+  }
 
-    .genderInput label {
-        font-size: 1rem;
-    }
-    .genderInput {
-        margin-top: 0.5rem;
-        margin: 20px;
-    }
+  .genderInput label {
+    font-size: 1rem;
+  }
+  .genderInput {
+    margin-top: 0.5rem;
+    margin: 20px;
+  }
 
-    .btnContinuar button{
-
-        font-size: 1rem;
-       
-     }
-    
+  .btnContinuar button {
+    font-size: 1rem;
+  }
 }
-
-
