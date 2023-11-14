@@ -1,6 +1,11 @@
+"use client"
 import styles from "../../styles/Solicitacao.module.css";
+import Link from "next/link";
+
+
 
 export default function Solicitacao() {
+  
   return (
     <main className={styles.dados}>
 
@@ -374,20 +379,18 @@ export default function Solicitacao() {
                     </div>
                 </div>
 
-                <div className={styles.inputBox}>
+                <div className={styles.inputArea}>
                         <label htmlFor="outroBox">Outro</label>
-                        <input id="outroBox" type="textarea" name="outroBox" placeholder="Digite seu completemnto" required/>
-                    </div>
+                        <input id="outroBox" type="textarea" name="outroBox" placeholder="Digite seu problema" required/>
+                </div>
           </div>
         </form>
 
         <div className={styles.btnContinuar}>
-                   <button>Continuar</button>
+                  <Link  href="/solicitar-guincho/confirmacao"><button>Continuar</button></Link> 
             </div>
 
        </div>
-
-
 
     </main>
   );
