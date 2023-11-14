@@ -1,14 +1,10 @@
-"use client"
+"use client";
 import styles from "../../styles/Solicitacao.module.css";
 import Link from "next/link";
 
-
-
 export default function Solicitacao() {
-  
   return (
     <main className={styles.dados}>
-
       <div className={styles.form}>
         <form action="#">
           <div className={styles.formHeader}>
@@ -155,21 +151,16 @@ export default function Solicitacao() {
                 <input type="radio" name="female" id="female" />
                 <label htmlFor="female">Feminino</label>
               </div>
-            
 
-            
               <div className={styles.genderInput}>
                 <input type="radio" name="male" id="male" />
                 <label htmlFor="male">Masculino</label>
               </div>
-            
 
-           
               <div className={styles.genderInput}>
                 <input type="radio" name="other" id="other" />
                 <label htmlFor="other">Outro</label>
               </div>
-           
 
               <div className={styles.genderInput}>
                 <input type="radio" name="none" id="none" />
@@ -178,10 +169,9 @@ export default function Solicitacao() {
             </div>
           </div>
         </form>
-       </div>
+      </div>
 
-
-       <div className={styles.form}>
+      <div className={styles.form}>
         <form action="#">
           <div className={styles.formHeader}>
             <div className={styles.header}>
@@ -236,8 +226,13 @@ export default function Solicitacao() {
 
             <div className={styles.inputBox}>
               <label htmlFor="comp">Comprimento</label>
-              <input type="number" name="comp" id="comp" required 
-              placeholder="Ex: 120"/>
+              <input
+                type="number"
+                name="comp"
+                id="comp"
+                required
+                placeholder="Ex: 120"
+              />
             </div>
 
             <div className={styles.inputBox}>
@@ -274,9 +269,9 @@ export default function Solicitacao() {
             </div>
           </div>
         </form>
-       </div>
+      </div>
 
-       <div className={styles.form}>
+      <div className={styles.form}>
         <form action="#">
           <div className={styles.formHeader}>
             <div className={styles.header}>
@@ -331,8 +326,13 @@ export default function Solicitacao() {
 
             <div className={styles.inputBox}>
               <label htmlFor="numeroP">Número</label>
-              <input type="number" name="numeroP" id="numeroP" required 
-              placeholder="Digite seu número"/>
+              <input
+                type="number"
+                name="numeroP"
+                id="numeroP"
+                required
+                placeholder="Digite seu número"
+              />
             </div>
 
             <div className={styles.inputBox}>
@@ -345,53 +345,58 @@ export default function Solicitacao() {
               />
             </div>
 
-            <div className={styles.genderInputs}>   
-
-            <div className={styles.genderTitle}>
+            <div className={styles.genderInputs}>
+              <div className={styles.genderTitle}>
                 <h6>Tipo de problema</h6>
+              </div>
+
+              <div className={styles.genderGroup}>
+                <div className={styles.genderInput}>
+                  <input id="pneu" type="radio" name="pneu" />
+                  <label htmlFor="pneu">Pneu furado</label>
+                </div>
+
+                <div className={styles.genderInput}>
+                  <input id="bateria" type="radio" name="bateria" />
+                  <label htmlFor="bateria">Problema na bateria</label>
+                </div>
+
+                <div className={styles.genderInput}>
+                  <input id="motor" type="radio" name="motor" />
+                  <label htmlFor="motor">Motor fundido</label>
+                </div>
+
+                <div className={styles.genderInput}>
+                  <input id="direcao" type="radio" name="direcao" />
+                  <label htmlFor="direcao">Problemas na direção</label>
+                </div>
+
+                <div className={styles.genderInput}>
+                  <input id="outro" type="radio" name="outro" />
+                  <label htmlFor="outro">Outro</label>
+                </div>
+              </div>
             </div>
 
-                    <div className={styles.genderGroup}>
-                        <div className={styles.genderInput}>
-                            <input id="pneu" type="radio" name="pneu"/>
-                            <label htmlFor="pneu">Pneu furado</label>
-                        </div>
-
-                        <div className={styles.genderInput}>
-                            <input id="bateria" type="radio" name="bateria"/>
-                            <label htmlFor="bateria">Problema na bateria</label>
-                        </div>
-
-                        <div className={styles.genderInput}>
-                            <input id="motor" type="radio" name="motor"/>
-                            <label htmlFor="motor">Motor fundido</label>
-                        </div>
-
-                        <div className={styles.genderInput}>
-                            <input id="direcao" type="radio" name="direcao"/>
-                            <label htmlFor="direcao">Problemas na direção</label>
-                        </div>
-
-                        <div className={styles.genderInput}>
-                            <input id="outro" type="radio" name="outro"/>
-                            <label htmlFor="outro">Outro</label>
-                        </div>
-                    </div>
-                </div>
-
-                <div className={styles.inputArea}>
-                        <label htmlFor="outroBox">Outro</label>
-                        <input id="outroBox" type="textarea" name="outroBox" placeholder="Digite seu problema" required/>
-                </div>
+            <div className={styles.inputArea}>
+              <label htmlFor="outroBox">Outro</label>
+              <input
+                id="outroBox"
+                type="textarea"
+                name="outroBox"
+                placeholder="Digite seu problema"
+                required
+              />
+            </div>
           </div>
         </form>
 
         <div className={styles.btnContinuar}>
-                  <Link  href="/solicitar-guincho/confirmacao"><button>Continuar</button></Link> 
-            </div>
-
-       </div>
-
+          <Link href="/solicitar-guincho/confirmacao">
+            <button>Continuar</button>
+          </Link>
+        </div>
+      </div>
     </main>
   );
 }

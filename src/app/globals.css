@@ -2,16 +2,14 @@
 @import url(../styles/Home.module.css);
 @import url(../styles/Components.module.css);
 
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-:root{
-    --azul-principal: #077CDB;
-    --azul-sec: #05C7F2;
-    --branco: #fff;
-  }
-
-
+:root {
+  --azul-principal: #077cdb;
+  --azul-sec: #05c7f2;
+  --branco: #fff;
+}
